@@ -50,6 +50,8 @@ abstract class modDb8SiteLastModifiedHelper
         //take timezone for user into account
         $date = JFactory::getDate($displaydate, 'UTC');
         $date->setTimezone(new DateTimeZone($user->getParam('timezone', $config->get('offset'))));
+        /* Set locale to Malaysia */
+        setlocale(LC_ALL, 'ms_MY');
 
 	$formatteddate = $params->get('text_pre').$date->format($params->get('dateformat', 'l d-m-Y, H:i:s'), true, true).$params->get('text_post');
 
