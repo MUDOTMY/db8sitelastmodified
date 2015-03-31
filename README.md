@@ -1,4 +1,9 @@
 db8sitelastmodified
+This extension is modified to be Multilanguage (ms-MY) and (en-GB)
+Edited: Sam SK
+Email: sam@mu.my
+Web: http://www.mu.my
+
 ===================
 
 db8 Site Last Modified
